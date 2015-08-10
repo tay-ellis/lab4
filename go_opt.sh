@@ -1,6 +1,6 @@
 #!/bin/sh
 
-while getopts ":a" opt; do
+while getopts ":abc:d:" opt; do
 case $opt in
 	a)
 	echo "-a was triggered!" >&2
